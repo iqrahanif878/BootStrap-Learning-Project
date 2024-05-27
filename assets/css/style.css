@@ -1,0 +1,177 @@
+:root {
+    --font-15: 15px!important;
+    --letter-spacing: 0.1px;
+    --spacing: 1px;
+    --word-spacing: 0.50px;
+    --margin-zero: 0;
+    --silver: #C0C0C0;
+    --radius-50: 50%;
+    --h1-font: 50px;
+    --font-family: 'arial'; /* Replace with the font name */
+    --width-90: 90%;
+    --margin200: 200px;
+    --margin380: 380px;
+    --padding-250: 250px;
+    --rotate: rotate(90deg);
+    --my--15: -15px;
+    --width-800: 800px;
+    --top-0: 0;
+    --bottom-60: 60px;
+    --bottom--80: -80px;
+    --btn-w: 160px;
+    --btn-h: 48px;
+    --btn-sm: 55px;
+    --bttn: 50px;
+    --a: none;
+    --w-10: 50px;
+    --list-style:none;
+    --fs-70: 70px;
+    --bottom-40: 40px;
+    --top-20: 20px;
+    --left-15: 15px;
+    --bg-gray: #C0C0C0;
+    --input-w: 100%;
+    --bg-dark-gray: #3A3B3C;
+    --color-dark: #000000;
+    --img: url('bg.png');
+    --background-size: cover;
+    --background-repeat: no-repeat;
+    --img-width: 100%;
+    --carousel-indicators: 10px;
+    --opacity: 2;
+    --bg-warning: #ffbe00;
+
+}
+
+@font-face {
+    font-family: 'arial';
+    src: url('assets/fonts/SansSerifBldFLF');
+
+}
+
+/* Your existing styles */
+.fs-7 {
+    font-size: var(--font-15);
+    letter-spacing: var(--letter-spacing);
+    word-spacing: var(--word-spacing);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: var(--margin-zero);
+}
+h1, h2, h3, h4, h5, h6{
+   font-family: var(--font-family);
+   letter-spacing: var(--spacing);
+}
+.fon-family{
+    font-family: var(--font-family);
+}
+
+.text-silver {
+    color: var(--silver);
+}
+.rounded-50{
+    border-radius: var(--radius-50);
+}
+.bttn{
+    width: var(--bttn);
+    height: var(--bttn);
+}
+.w-90{
+    width: var(--width-900);
+}
+.my-20{
+    margin-top: var(--margin200);
+    margin-bottom: var(--margin200);
+}
+.top-20{
+    top: var(--top-20);
+}
+h1{
+    font-size: var(--h1-font);
+}
+.my--15{
+    margin-top: var(--my--15);
+    margin-bottom: var(--my--15);
+}
+.px-25{
+    padding-right: var(--padding-250);
+    padding-left: var(--padding-250);
+}
+.rotait {
+    transform: var(--rotate);
+}
+.right{
+    right: 340px;
+}
+.mt-38{
+  margin-top: var(--margin380);
+  
+}
+.w-800{
+    width: var(--width-800);
+}
+.bottom-60{
+    bottom: var(--bottom-60);
+}
+.btn{
+    width: var(--btn-w);
+    height: var(--btn-h);
+}
+a{
+    text-decoration: var(--a);
+}
+.btn-sm{
+    width: var(--btn-sm);
+    height: var(--btn-sm); 
+}
+.bottom--80{
+   bottom: var(--bottom--80);
+}
+.w-10{
+    width: var(--w-10);
+}
+.overline{
+    text-decoration: overline;
+}
+.mx-20{
+    margin-left: var(--margin200);
+    margin-right: var(--margin200);
+}
+.fs-70{
+    font-size: var(--fs-70);
+}
+.bottom-40{
+    bottom: var(--bottom-40);
+}
+.left-15{
+    left: var(--left-15);
+}
+.bg-gray{
+    background-color: var(--bg-gray);
+}
+input{
+    height: var(--btn-h);
+    width: var(--input-w);
+}
+.bg-dark-gray{
+    background-color: var(--bg-dark-gray);
+}
+.navbar-toggler-icon{
+    color: var(--color-dark);
+}
+.background-img{
+   background-image: var(--img);
+   background-size: var(--background-size);
+   background-repeat: var(var(--background-repeat));
+   width: var(--img-width);
+}
+.carousel-indicators [data-bs-target]{
+    height: var(--carousel-indicators);
+    width: var(--carousel-indicators);
+    border-radius: var(--radius-50);
+    opacity: var(--opacity);
+}
+.carousel-indicators .active {
+    background-color: var(--bg-warning);
+}
